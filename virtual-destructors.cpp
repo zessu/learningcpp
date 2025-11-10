@@ -36,7 +36,7 @@ int main() {
   Dog *adog = new Dog("kendy");
   delete adog;
 
-  // the parent constructor will not be called unless we declare this virtual.
+  // the child constructor will not be called unless we declare this virtual.
   // Make sure parent contructor marked as virtual
   Animal *anAnimal = new Dog("miller");
 
